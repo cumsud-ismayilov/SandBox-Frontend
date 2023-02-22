@@ -1,0 +1,366 @@
+.demo-foot {
+    background-color: #f6f7f9;
+    margin-top: 3rem;
+
+    .container {
+        .row {
+            border-bottom: 1px solid rgba(164, 174, 198, .2);
+            padding-bottom: 41px;
+            .join {
+                p {
+                     @media screen and (max-width: 768px){
+               font-size: 19px;
+    width: 318px;
+    padding: 0;
+        }
+                    font-size: 36px;
+                    color: #343f52;
+                    word-spacing: 0.1rem;
+                    font-weight: 700;
+                    font-family: "Manrope", sans-serif;
+                    width: 600px;
+                }
+            }
+
+            .free-button {
+                 @media screen and (max-width: 768px){
+                       text-align: left;
+                    }
+                text-align: end;
+
+                button {
+                     @media screen and (max-width: 768px){
+                       margin-top:0px;
+                    }
+                    padding: 13px 28px;
+                    color: white;
+                    background-color: #343f52;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    border: none;
+                    margin-top: 23px;
+                    transition: .3s ease-in-out;
+                    transform: translateY(0px);
+
+                    &:hover {
+                        transform: translateY(-10px);
+                        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.55);
+                        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.55);
+                    }
+                }
+            }
+
+
+        }
+
+        .site-end {
+            .sand-logo {
+                width: 134px;
+                height: 28px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+
+            p {
+                color: #60697b;
+                font-size: 17px;
+                font-family: "Manrope", sans-serif;
+                word-spacing: 0.1rem;
+                padding-top: 17px;
+            }
+
+
+            .contact-icon {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                i {
+                    color: #343f52;
+                    font-size: 19px;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+                    transform: translateY(0px);
+
+                    &:hover {
+                        transform: translateY(-6px);
+                    }
+                }
+            }
+
+            .touch {
+                p {
+                    color: #343f52;
+                    font-size: 20px;
+                    word-spacing: 0.1rem;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 700;
+                    margin: 0px 0px 10px;
+                }
+
+                h6 {
+                    color: #60697b;
+                    font-size: 17px;
+                    font-family: "Manrope", sans-serif;
+                    word-spacing: 0.1rem;
+                    padding-top: 10px;
+                    width: 175px;
+
+                }
+
+                h3 {
+                    padding-top: 18px;
+                    color: #60697b;
+                    font-size: 17px;
+                    font-family: "Manrope", sans-serif;
+                    word-spacing: 0.1rem;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+
+                    &:hover {
+                        color: #343f52;
+                    }
+                }
+            }
+
+            .learn {
+                p {
+                    color: #343f52;
+                    font-size: 20px;
+                    word-spacing: 0.1rem;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 700;
+                    margin: 0px 0px 10px;
+                }
+
+                ul {
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    li {
+                        // padding-top: 18px;
+                        color: #60697b;
+                        font-size: 17px;
+                        font-family: "Manrope", sans-serif;
+                        word-spacing: 0.1rem;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+
+                        &:hover {
+                            color: #343f52;
+                        }
+                    }
+                }
+            }
+            .news{
+                p{
+                    color: #343f52;
+                    font-size: 20px;
+                    word-spacing: 0.1rem;
+                    font-family: "Manrope", sans-serif;
+                    font-weight: 700;
+                    margin: 0px 0px 10px;
+                }
+                h2{
+                    padding-top: 10px;
+                    color: #60697b;
+                    font-size: 17px;
+                    font-family: "Manrope", sans-serif;
+                    word-spacing: 0.1rem;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+                    padding-bottom: 20px;
+
+                    &:hover {
+                        color: #343f52;
+                    }
+                }
+                .form-floating{
+                    display: flex;
+                    .form-control{
+                        width: 233px;
+                        height: 52px;
+                        border-radius: 6px 0px 0px 6px;
+                    }
+                    label{}
+                    button{
+                        padding: 13px 28px;
+                        color: white;
+                        background-color: #343f52;
+                        border-radius: 0px 8px 8px 0px;
+                        cursor: pointer;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.product-foot{
+    background-color: #21262c!important;
+    .row {
+        .sand-logo {
+            width: 134px;
+            height: 28px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 17px;
+            font-family: "Manrope", sans-serif;
+            word-spacing: 0.1rem;
+            padding-top: 17px;
+        }
+
+
+        .contact-icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            i {
+                color: #fff;
+                font-size: 19px;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+                transform: translateY(0px);
+
+                &:hover {
+                    transform: translateY(-6px);
+                }
+            }
+        }
+
+        .touch {
+            p {
+                color: #fff;
+                font-size: 20px;
+                word-spacing: 0.1rem;
+                font-family: "Manrope", sans-serif;
+                font-weight: 700;
+                margin: 0px 0px 10px;
+            }
+
+            h6 {
+                color: #fff;
+                font-size: 17px;
+                font-family: "Manrope", sans-serif;
+                word-spacing: 0.1rem;
+                padding-top: 10px;
+                width: 175px;
+
+            }
+
+            h3 {
+                padding-top: 18px;
+                color: #fff;
+                font-size: 17px;
+                font-family: "Manrope", sans-serif;
+                word-spacing: 0.1rem;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+
+                &:hover {
+                    color: #3f78e0;
+                }
+            }
+        }
+
+        .learn {
+            p {
+                color: #fff;
+                font-size: 20px;
+                word-spacing: 0.1rem;
+                font-family: "Manrope", sans-serif;
+                font-weight: 700;
+                margin: 0px 0px 10px;
+            }
+
+            ul {
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                li {
+                    // padding-top: 18px;
+                    color: #fff;
+                    font-size: 17px;
+                    font-family: "Manrope", sans-serif;
+                    word-spacing: 0.1rem;
+                    cursor: pointer;
+                    transition: .3s ease-in-out;
+
+                    &:hover {
+                        color: #3f78e0;
+                    }
+                }
+            }
+        }
+        .news{
+            p{
+                color: #fff;
+                font-size: 20px;
+                word-spacing: 0.1rem;
+                font-family: "Manrope", sans-serif;
+                font-weight: 700;
+                margin: 0px 0px 10px;
+            }
+            h2{
+                padding-top: 10px;
+                color: #fff;
+                font-size: 17px;
+                font-family: "Manrope", sans-serif;
+                word-spacing: 0.1rem;
+                cursor: pointer;
+                transition: .3s ease-in-out;
+                padding-bottom: 20px;
+
+                &:hover {
+                    color: #3f78e0;
+                }
+            }
+            .form-floating{
+                display: flex;
+                .form-control{
+                    width: 233px;
+                    height: 52px;
+                    border-radius: 6px 0px 0px 6px;
+                    background: rgba(255,255,255,.03);
+    border-color: rgba(255,255,255,.1);
+    
+                }
+                label{
+                    color: #cacaca;
+                }
+                button{
+                    padding: 13px 28px;
+                    color: white;
+                    // background-color: #343f52;
+                    border-radius: 0px 8px 8px 0px;
+                    cursor: pointer;
+                    border: none;
+                    background-color: #3f78e0;
+                }
+            }
+        }
+    }
+}
